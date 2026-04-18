@@ -1,0 +1,12 @@
+{
+  "name": "notification-test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx mcp-use dev"
+  },
+  "dependencies": {
+    "mcp-use": "latest",
+    "zod": "^4.0.0"
+  }
+}

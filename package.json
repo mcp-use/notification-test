@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npx mcp-use dev"
+    "dev": "mcp-use dev",
+    "build": "mcp-use build",
+    "start": "mcp-use start"
   },
   "dependencies": {
     "mcp-use": "latest",
     "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }
